@@ -6,11 +6,11 @@ import listArticle from './pages/article/List.vue'
 import addArticle from './pages/article/Add.vue'
 
 import user from './pages/nav1/user.vue'
-import Page4 from './pages/nav2/Page4.vue'
-import Page5 from './pages/nav2/Page5.vue'
 import Web from './pages/web/Web.vue'
 import WebAdd from './pages/web/add.vue'
 import friend from './pages/webdes/friend.vue'
+import seo from './pages/webdes/seo.vue'
+
 
 
 let routes = [
@@ -57,7 +57,7 @@ let routes = [
         iconCls: 'fa fa-id-card-o',
         children: [
             { path: '/friend', component: friend, name: '友情链接设置' },
-            { path: '/page5', component: Page5, name: '网站seo信息' }
+            { path: '/seo', component: seo, name: '网站seo信息' }
         ]
     },
     {
